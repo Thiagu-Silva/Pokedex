@@ -52,7 +52,7 @@ function startApp(pokeName) {
             container.style.display = 'flex';
             container.innerHTML = createCard();
         }
-    }, 1000);
+    }, 1500);
 }
 
 searchButton.addEventListener('click', event => {
@@ -63,7 +63,7 @@ searchButton.addEventListener('click', event => {
 
     setTimeout(() => {
         container.classList.remove('fade');
-    }, 2000);
+    }, 1500);
 });
 
 
